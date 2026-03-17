@@ -16,7 +16,7 @@ class MainActivity : ComponentActivity() {
         val webView = WebView(this)
         setContentView(webView)
 
-        // 🔥 FULLSCREEN (cache barre haut + bas)
+        //  FULLSCREEN (cache barre haut + bas)
         window.decorView.systemUiVisibility =
             View.SYSTEM_UI_FLAG_FULLSCREEN or
                     View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or

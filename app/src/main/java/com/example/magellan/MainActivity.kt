@@ -88,7 +88,7 @@ class MainActivity : ComponentActivity() {
             }
         }
 
-        webView.loadUrl("https://192.168.255.100/performance")
+        webView.loadUrl("http://supervision.ovpndns:3500/performance")
     }
 
     // 🔒 bloque bouton retour (mode app drone)
